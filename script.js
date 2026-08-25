@@ -17,7 +17,15 @@ const images = [
 'images/745c777a0ca86060f0f87c6ca5bb52a6.jpg',
 'images/74c255f0c64097ff45d558de2a06f9d7.jpg',
 'images/7a44b218112c86f2f6deb80d496c84ef.jpg',
-'images/b71dc8343e5ad05030d641d411d23b84.jpg'
+'images/b71dc8343e5ad05030d641d411d23b84.jpg',
+'images/p0001.webp',
+'images/p0002.webp',
+'images/p0003.webp',
+'images/p0004.webp',
+'images/p0005.png',
+'images/p0006.jpg',
+'images/p0007.jpg',
+'images/p0007.png'    
 
 
     
