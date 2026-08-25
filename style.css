@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ececec;
+    color: #222;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 16px 22px;
+    background: rgba(255, 255, 255, 0.96);
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/*
+    MASONRY LAYOUT
+
+    CSS columns naturally pack images of different heights
+    into a Pinterest-like masonry flow.
+*/
+#board {
+    column-width: 260px;
+    column-gap: 14px;
+    padding: 14px;
+}
+
+.pin {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 14px;
+    break-inside: avoid;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: zoom-in;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+.pin img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* LIGHTBOX */
+
+.lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.93);
+    align-items: center;
+    justify-content: center;
+    padding: 34px;
+}
+
+.lightbox.open {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: 95vw;
+    max-height: 90vh;
+    object-fit: contain;
+}
+
+#close-lightbox {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 44px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    #board {
+        column-width: 170px;
+        column-gap: 10px;
+        padding: 10px;
+    }
+
+    .pin {
+        margin-bottom: 10px;
+    }
+}
