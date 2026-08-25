@@ -25,7 +25,13 @@ const images = [
 'images/p0005.png',
 'images/p0006.jpg',
 'images/p0007.jpg',
-'images/p0007.png'    
+'images/p0007.png' ,
+'images/IMG_1729.jpg',
+'images/IMG_1751.jpg',
+'images/IMG_1853.jpg',
+'images/IMG_1872.jpg',
+'images/lighting_layout.PNG',
+'images/tall faced dude 1.PNG'
 
 
     
