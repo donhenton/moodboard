@@ -20,7 +20,7 @@ const images = [
 'stages/scr1.png' ,
 //'stages/IMG_1729.jpg',
 //'stages/IMG_1751.jpg',
-'stages/IMG_1853.jpg',
+//'stages/IMG_1853.jpg',
 //'stages/IMG_1872.jpg',
 'stages/lighting_layout.PNG'
 //'stages/tall faced dude 1.PNG'
