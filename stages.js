@@ -13,7 +13,7 @@ const images = [
 'stages/king_queen.webp',
 'stages/p0003.webp',
 'stages/p0004.webp',
-'stages/p0007.png' ,
+//'stages/p0007.png' ,
 'stages/cam1.png' ,
 'stages/p0006.jpg',
 'stages/p0007.jpg',
@@ -21,9 +21,9 @@ const images = [
 //'stages/IMG_1729.jpg',
 //'stages/IMG_1751.jpg',
 'stages/IMG_1853.jpg',
-'stages/IMG_1872.jpg',
-'stages/lighting_layout.PNG',
-'stages/tall faced dude 1.PNG'
+//'stages/IMG_1872.jpg',
+'stages/lighting_layout.PNG'
+//'stages/tall faced dude 1.PNG'
 
 
     
