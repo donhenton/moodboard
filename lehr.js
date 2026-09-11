@@ -15,12 +15,12 @@ const images = [
 'lehr/p011.jpg',
 'lehr/p012.jpg',
 'lehr/p013.jpg',
-
 'lehr/b001.jpg',
 'lehr/b002.jpg',
 'lehr/b003.jpg',
 'lehr/b004.jpg',
-'lehr/b005.jpg' 
+'lehr/b005.jpg' ,
+'lehr/final_project3.png',
 
 
     
